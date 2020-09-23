@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+}
+#wrapper{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    background-color: black;
+}
+.instagramPost{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    height: auto;
+    margin-top: 0px;
+}
+.cabecera{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.logoOfHtml .fab{
+    /* font-size: 18px; 40px */
+    align-items: stretch;
+    margin-top: 20px;
+}
+.userName{
+    margin-top:20px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.userName p{
+    margin:0 0 5px 0;
+}
+.trespuntos{
+  margin-left: auto;
+  margin-top: 25px;
+  font-size: 30px;
+}
+.instagramPhoto{
+    margin-top:0px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.captionFeed{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: small;
+    color:gray;
+    display: flex;
+    flex-wrap: wrap;
+    height: 0;
+}
+.footer{
+    margin: 10px;
+}
+.icons{
+    display: flex;
+    font-size: 30px;
+}
+/* 
+@media (min-width: 576px){
+    .logoOfHtml .fab{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px){
+    .logoOfHtml .fab{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 992px){
+    .logoOfHtml .fab{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1200px){
+    .logoOfHtml .fab{
+        font-size: 40px;
+    }
+} */
