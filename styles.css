@@ -1,12 +1,4 @@
-body{
-    background-color: black;
-}
-#wrapper{
-    width: 100%;
-    text-align: center;
-    margin-top: 100px;
-    background-color: black;
-}
+
 .instagramPost{
     flex-direction: column;
     width: 100%;
@@ -24,7 +16,6 @@ body{
 }
 
 .logoOfHtml .fab{
-    /* font-size: 18px; 40px */
     align-items: stretch;
     margin-top: 20px;
 }
@@ -39,7 +30,6 @@ body{
 .trespuntos{
   margin-left: auto;
   margin-top: 25px;
-  font-size: 30px;
 }
 .instagramPhoto{
     margin-top:0px;
@@ -61,29 +51,4 @@ img{
 }
 .icons{
     display: flex;
-    font-size: 30px;
 }
-/* 
-@media (min-width: 576px){
-    .logoOfHtml .fab{
-        font-size: 20px;
-    }
-}
-
-@media (min-width: 768px){
-    .logoOfHtml .fab{
-        font-size: 25px;
-    }
-}
-
-@media (min-width: 992px){
-    .logoOfHtml .fab{
-        font-size: 30px;
-    }
-}
-
-@media (min-width: 1200px){
-    .logoOfHtml .fab{
-        font-size: 40px;
-    }
-} */
